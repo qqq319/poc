@@ -38,7 +38,9 @@ python poc.py -u http://example.com
 把待检测的目标写入一个文本文件（每行一个 URL），例如 targets.txt：
 
 http://site1.com
+
 http://site2.com
+
 http://site3.com
 
 
