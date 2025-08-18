@@ -1,7 +1,6 @@
 项目简介
 
-这是一个用于检测 孚盟云 CRM 系统 /Ajax/LicMould.ashx 接口 SQL 注入漏洞 的批量 PoC 脚本
-脚本支持单目标检测和多目标批量检测，并通过延时注入的方式判断漏洞是否存在
+脚本支持单目标检测和多目标批量检测
 
 ⚠️ 声明
 
@@ -23,14 +22,8 @@ pip install requests
 
 python poc.py -h
 
-
-输出示例：
-
-usage: Python poc.py [-u URL] [-f FILE]
-
-孚盟云CRM /LicMould.ashx SQL注入漏洞
-
 3. 单个目标检测
+   
 python poc.py -u http://example.com
 
 4. 批量检测
