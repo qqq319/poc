@@ -5,12 +5,7 @@ from multiprocessing.dummy import Pool
 requests.packages.urllib3.disable_warnings()
 
 def banner():
-    test = """
- ___  ____  ___  ___   ___   ___    __  
-/ __)(_  _)/ __)(__ \ | __) / _ \  /. | 
-\__ \ _)(_ \__ \ / _/ |__ \( (_) )(_  _)
-(___/(____)(___/(____)(___/ \___/   (_) 
-"""
+    test = """"""
     print(test)
     print("[*] 汉王 e脸通 addVisitDeviceAppointmentInfoTest 反序列化漏洞检测脚本")
 
@@ -66,3 +61,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
